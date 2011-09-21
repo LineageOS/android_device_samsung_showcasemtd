@@ -95,6 +95,10 @@ PRODUCT_PACKAGES += \
 	libcamera \
 	libstagefrighthw
 
+# Shutter sound toggle
+PRODUCT_PACKAGES += \
+	toggleshutter
+
 # apns config file
 PRODUCT_COPY_FILES += \
         vendor/cyanogen/prebuilt/common/etc/apns-conf.xml:system/etc/apns-conf.xml
